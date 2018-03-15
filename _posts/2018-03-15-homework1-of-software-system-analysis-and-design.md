@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homework1"
+title: "Homework1 of Software Sysyem Analysis and Design"
 ---
 这是系统分析与设计的第一次作业.
 
@@ -36,18 +36,21 @@ $$P = E / D$$
 软件生命周期又称为软件生存周期或系统开发生命周期，是软件的产生直到报废的生命周期，周期内有问题定义、可行性分析、总体描述、系统设计、编码、调试和测试、验收与运行、维护升级到废弃等阶段。
 
 ### 1.4 按照 SWEBok 的 KA 划分，本课程关注哪些 KA 或 知识领域？
-- 软件需求
-- 软件设计
-- 软件构造
+- 软件需求（Software requirement）
+- 软件设计（Software design）
+- 软件构造（Software construction）
+- 软件工程管理（Software engineering management）
+- 软件工程模型和方法（Software engineering models and methods）
 
 ### 1.5 解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式
 - Level1 - Initial：无序，自发生产模式。
 - Level2 - Repeatable：建立了基本的项目管理过程，制定了必要的过程纪律。
-- Level3 - Defined：已将软件管理和工程两方面的过程文档化、标准化，并综合成该组织的标准软件过程。所有项目均使用经批准、剪裁的标准软件过程来开发和维护软件，软件产品的生产在整个软件过程是可见的。
-- Level4 - Managed：分析对软件过程和产品质量的详细度量数据，对软件过程和产品都有定量的理解与控制。管理有一个作出结论的客观依据，管理能够在定量的范围内预测性能。
+- Level3 - Defined：将软件管理和工程两方面的过程文档化、标准化，并综合成该组织的标准软件过程。所有项目均使用经批准、剪裁的标准软件过程来开发和维护软件，软件产品的生产在整个软件过程是可见的。
+- Level4 - Managed：分析对软件过程和产品质量的详细度量数据，对软件过程和产品都有定量的理解与控制。
 - Level5 - Optimizing：过程的量化反馈和先进的新思想、新技术促使过程持续不断改进。
 
 ### 1.6 用自己语言简述 SWEBok 或 CMMI （约200字）
+能力成熟度模型集成（Capability Maturity Model Integration，简称CMMI）是一个过程改进方法，它的目的是帮助组织改进他们的绩效。
 
 
 ## 2. 解释 PSP 各项指标及技能要求
