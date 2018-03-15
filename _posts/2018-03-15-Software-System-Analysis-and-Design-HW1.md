@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homework1 of Software Sysyem Analysis and Design"
+title: "Software System Analysis and Design HW1"
 ---
 这是系统分析与设计的第一次作业.
 
