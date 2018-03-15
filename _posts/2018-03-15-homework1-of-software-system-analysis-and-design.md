@@ -19,7 +19,7 @@ title: "Homework1 of Software Sysyem Analysis and Design"
 
 #### 1.2.2 COCOMO模型
 构造性成本模型（COCOMO模型）是一种在软件项目中估计工作量、成本和时间表的模型。
-###### 基本COCOMO
+##### 基本COCOMO
 基本COCOMO模型用每千行代码数（KLoC）来计算软件开发的工作量及成本的。计算等式如下：
 
 $$E = a_b(KLOC)^{b_b}$$
@@ -29,14 +29,14 @@ $$D = c_b(E)^{d_b}$$
 $$P = E / D$$
 
 其中E是用“人月”来计算的工作量，D是指累积的开发时间（月），KLOC是指对最终发布的代码行数的估计（千行代码），P指需要的人数。参数$a_b$、$b_b$、$c_b$和$d_b$根据不同类型的项目变化。
-###### 中级COCOMO
+##### 中级COCOMO
 中级COCOMO中考虑了项目的15个属性，并对这15个属性进行一个综合评估，得出一个评估值$EAF$，等式如下：
 
 $$E = a_i(KLoC)^{b_i}.EAF$$
 
 其中E是以“人月”来计算的工作量，“KLoC”是产品发布的代码行数(千行代码)，“EAF”是评估因子。参数$a_i$、$b_i$根据不同类型的项目变化。
 
-###### 详细COCOMO
+##### 详细COCOMO
 详细COCOMO加入了对不同软件开发阶段影响的考量，进一步优化了模型。
 
 ### 1.3 软件生命周期
@@ -67,6 +67,7 @@ CMMI有三个覆盖的方面，包括
 1. 产品服务和开发（CMMI for Development）
 2. 服务创建、管理和交付（CMMI for Service）
 3. 产品和采购服务（CMMI for Acquisition）
+
 #### 五个级别
 即 1.5 中提到的五个级别。
 
