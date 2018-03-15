@@ -50,7 +50,7 @@ $$P = E / D$$
 - Level5 - Optimizing：过程的量化反馈和先进的新思想、新技术促使过程持续不断改进。
 
 ### 1.6 用自己语言简述 SWEBok 或 CMMI （约200字）
-能力成熟度模型集成（Capability Maturity Model Integration，简称CMMI）是一个过程改进方法，它的目的是帮助组织改进他们的绩效。
+[能力成熟度模型集成](https://zh.wikipedia.org/wiki/%E8%83%BD%E5%8A%9B%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B%E9%9B%86%E6%88%90#%E6%A6%82%E8%BF%B0)（Capability Maturity Model Integration，简称CMMI）是一个过程改进方法，它的目的是帮助组织改进他们的绩效。
 
 
 ## 2. 解释 PSP 各项指标及技能要求
