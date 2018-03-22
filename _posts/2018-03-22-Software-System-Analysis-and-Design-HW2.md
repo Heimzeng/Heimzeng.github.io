@@ -50,3 +50,5 @@ title: "Software System Analysis and Design HW2"
 
 ## 2. 项目管理使用
 团队任务kanban如下
+![](https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw2/kanban_v0.jpg?raw=true)
+其中标签为未指派的为非本周任务，为名字+日期的为对应的成员在对应的时间内应该完成的任务，标签只有日期的为团队在指定日期的活动。
