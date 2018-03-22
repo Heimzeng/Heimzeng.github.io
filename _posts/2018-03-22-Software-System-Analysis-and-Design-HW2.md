@@ -2,7 +2,7 @@
 layout: post
 title: "Software System Analysis and Design HW2"
 ---
-系统分析与设计的第一次作业.
+系统分析与设计的第二次作业.
 
 ## 1. 简答题
 ### 简述瀑布模型、增量模型、螺旋模型（含原型方法）的优缺点
