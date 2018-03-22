@@ -1,5 +1,6 @@
 ---
 layout: post
+tag: homework
 title: "Software System Analysis and Design HW1"
 ---
 这是系统分析与设计的第一次作业.

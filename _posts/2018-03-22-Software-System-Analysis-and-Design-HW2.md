@@ -1,5 +1,6 @@
 ---
 layout: post
+tag: homework
 title: "Software System Analysis and Design HW2"
 ---
 系统分析与设计的第二次作业.
