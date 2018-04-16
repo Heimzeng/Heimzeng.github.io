@@ -6,12 +6,12 @@ title: "微信web开发者工具入门"
 微信web开发者工具是我们用来开发小程序的平台，也是我们必须学习的一个很好的工具.
 
 ## 安装
-下载地址：！[微信web开发者工具下载](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=2018412)
+下载地址：[微信web开发者工具下载](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=2018412)
 
 ## 新建项目
 安装完成后打开，使用关联了小程序账号的微信进行扫码登录。
 
-！[](https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw3/login.jpg?raw=true)
+![](https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw3/login.jpg?raw=true)
 
 登录完成后进入到项目选择界面，由于我们开发的是小程序，所以选择新建小程序。
 
