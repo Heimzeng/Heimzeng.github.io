@@ -4,7 +4,7 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>32</y>
       <w>16</w>
       <h>16</h>
@@ -15,7 +15,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>544</x>
+      <x>536</x>
       <y>80</y>
       <w>80</w>
       <h>32</h>
@@ -26,7 +26,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>40</y>
       <w>24</w>
       <h>56</h>
@@ -37,7 +37,7 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>568</x>
+      <x>560</x>
       <y>152</y>
       <w>32</w>
       <h>32</h>
@@ -48,7 +48,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>104</y>
       <w>24</w>
       <h>64</h>
@@ -59,7 +59,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>592</x>
+      <x>584</x>
       <y>152</y>
       <w>120</w>
       <h>32</h>
@@ -71,7 +71,7 @@ can't reconized</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>696</x>
+      <x>688</x>
       <y>152</y>
       <w>80</w>
       <h>32</h>
@@ -82,7 +82,7 @@ can't reconized</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>824</x>
+      <x>816</x>
       <y>160</y>
       <w>16</w>
       <h>16</h>
@@ -93,7 +93,7 @@ can't reconized</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>768</x>
+      <x>760</x>
       <y>160</y>
       <w>72</w>
       <h>24</h>
@@ -104,7 +104,7 @@ can't reconized</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>144</y>
       <w>72</w>
       <h>96</h>
@@ -116,7 +116,7 @@ reconized</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>544</x>
+      <x>536</x>
       <y>224</y>
       <w>80</w>
       <h>32</h>
@@ -127,7 +127,7 @@ reconized</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>568</x>
+      <x>560</x>
       <y>288</y>
       <w>32</w>
       <h>32</h>
@@ -138,7 +138,7 @@ reconized</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>248</y>
       <w>24</w>
       <h>56</h>
@@ -149,7 +149,7 @@ reconized</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>312</y>
       <w>56</w>
       <h>64</h>
@@ -161,7 +161,7 @@ correct</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>544</x>
+      <x>536</x>
       <y>360</y>
       <w>80</w>
       <h>32</h>
@@ -172,7 +172,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>384</y>
       <w>24</w>
       <h>72</h>
@@ -183,7 +183,7 @@ correct</panel_attributes>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>552</x>
+      <x>544</x>
       <y>432</y>
       <w>64</w>
       <h>16</h>
@@ -195,7 +195,7 @@ correct</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>496</x>
+      <x>488</x>
       <y>464</y>
       <w>80</w>
       <h>32</h>
@@ -206,7 +206,7 @@ correct</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>592</x>
+      <x>584</x>
       <y>464</y>
       <w>80</w>
       <h>32</h>
@@ -217,7 +217,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>432</y>
       <w>72</w>
       <h>48</h>
@@ -228,7 +228,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
+      <x>520</x>
       <y>432</y>
       <w>72</w>
       <h>48</h>
@@ -239,7 +239,7 @@ correct</panel_attributes>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>552</x>
+      <x>544</x>
       <y>528</y>
       <w>64</w>
       <h>16</h>
@@ -251,7 +251,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
+      <x>520</x>
       <y>488</y>
       <w>72</w>
       <h>64</h>
@@ -262,7 +262,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>488</y>
       <w>72</w>
       <h>64</h>
@@ -273,7 +273,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>528</y>
       <w>24</w>
       <h>64</h>
@@ -284,7 +284,7 @@ correct</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>568</x>
+      <x>560</x>
       <y>576</y>
       <w>32</w>
       <h>32</h>
@@ -295,7 +295,7 @@ correct</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>592</x>
+      <x>584</x>
       <y>432</y>
       <w>256</w>
       <h>176</h>
@@ -307,7 +307,7 @@ insufficient balance</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>600</y>
       <w>112</w>
       <h>64</h>
@@ -319,7 +319,7 @@ sufficient balance</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>544</x>
+      <x>536</x>
       <y>648</y>
       <w>80</w>
       <h>32</h>
@@ -330,7 +330,7 @@ sufficient balance</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>568</x>
+      <x>560</x>
       <y>720</y>
       <w>32</w>
       <h>32</h>
@@ -341,7 +341,7 @@ sufficient balance</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>672</y>
       <w>24</w>
       <h>64</h>
@@ -352,7 +352,7 @@ sufficient balance</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>448</x>
+      <x>440</x>
       <y>432</y>
       <w>136</w>
       <h>320</h>
@@ -364,7 +364,7 @@ continue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>744</y>
       <w>48</w>
       <h>64</h>
@@ -376,7 +376,7 @@ finish</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>544</x>
+      <x>536</x>
       <y>792</y>
       <w>80</w>
       <h>32</h>
@@ -387,7 +387,7 @@ finish</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>816</y>
       <w>24</w>
       <h>64</h>
@@ -398,7 +398,7 @@ finish</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>576</x>
+      <x>568</x>
       <y>864</y>
       <w>16</w>
       <h>16</h>
@@ -409,13 +409,36 @@ finish</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>592</x>
+      <x>584</x>
       <y>232</y>
-      <w>160</w>
+      <w>208</w>
       <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-incorrect</panel_attributes>
+incorrect &lt;3 times</panel_attributes>
     <additional_attributes>40.0;10.0;130.0;10.0;130.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>288</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+incorrect &gt;= 3 times</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>440</x>
+      <y>296</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
