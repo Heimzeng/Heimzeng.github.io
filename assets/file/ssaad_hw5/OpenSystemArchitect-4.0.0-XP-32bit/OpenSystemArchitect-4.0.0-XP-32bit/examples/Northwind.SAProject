@@ -1,0 +1,5 @@
+<SAProject Name="Northwind" Version="2.2" >
+ <Properties PromptUserID="1" PromptDataSourceName="0" UserID="sa" DataSourceName="NorthwindSQL" AutoConnect="0" SavePassword="0" PromptPassword="1" />
+ <Child Class="MSSModel" Location="Northwind.MSSModel" />
+ <Child Class="SQLFile" Location="AllOrders.sql" />
+</SAProject>

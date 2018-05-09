@@ -1,0 +1,604 @@
+<LMModel Align="68" DisplayFlags="15" LineColor="#000000" FillStyle="none" LineWidth="1" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" BackgroundColor="#ffffff" FontBold="0" BackgroundImagePlacement="0" FontItalic="0" ModificationDate="2005-10-03T11:43:29" TextFlag="2048" CreationDate="2005-10-03T11:38:36" BackgroundType="0" FontStrikeOut="0" Name="Northwind" BackgroundStyle="none" Version="2.2" NextOID="165" FontFamily="MS Shell Dlg" >
+ <LMEntityNormal width="178" x="62" TextField="2" Align="68" y="22" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="1" height="102" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Categories" NextOID="8" FontFamily="MS Shell Dlg" >
+  <sink x="0.494382" y="0.490196" OID="1" />
+  <LMAttribute OID="2" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="83" Name="CategoryID" />
+  </LMAttribute>
+  <LMAttribute OID="3" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="84" Name="CategoryName" />
+  </LMAttribute>
+  <LMAttribute OID="4" >
+   <Uses Class="LMDataItem" Path="85" Name="Description" />
+  </LMAttribute>
+  <LMAttribute OID="5" >
+   <Uses Class="LMDataItem" Path="86" Name="Picture" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="7" Name="Categories_pk" >
+   <Uses Class="LMAttribute" Path="1,2" Name="CategoryID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="165" x="333" TextField="2" Align="68" y="191" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="2" height="70" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="CustomerCustomerDemo" NextOID="6" FontFamily="MS Shell Dlg" >
+  <sink x="0.49697" y="0.485714" OID="1" />
+  <sink x="0.49697" y="0.485714" OID="2" />
+  <LMIdentifier Primary="1" OID="5" Name="CustomerCustomerDemo_pk" />
+ </LMEntityNormal>
+ <LMEntityNormal width="165" x="313" TextField="2" Align="68" y="39" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="3" height="70" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="CustomerDemographics" NextOID="5" FontFamily="MS Shell Dlg" >
+  <sink x="0.49697" y="0.485714" OID="1" />
+  <LMAttribute OID="2" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="87" Name="CustomerTypeID" />
+  </LMAttribute>
+  <LMAttribute OID="3" >
+   <Uses Class="LMDataItem" Path="88" Name="CustomerDesc" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="4" Name="CustomerDemographics_pk" >
+   <Uses Class="LMAttribute" Path="3,2" Name="CustomerTypeID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="180" x="588" TextField="2" Align="68" y="20" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="4" height="214" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Customers" NextOID="19" FontFamily="MS Shell Dlg" >
+  <sink x="0.494444" y="0.495327" OID="1" />
+  <sink x="0.494444" y="0.495327" OID="2" />
+  <LMAttribute OID="3" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="89" Name="CustomerID" />
+  </LMAttribute>
+  <LMAttribute OID="4" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="90" Name="CompanyName" />
+  </LMAttribute>
+  <LMAttribute OID="5" >
+   <Uses Class="LMDataItem" Path="91" Name="ContactName" />
+  </LMAttribute>
+  <LMAttribute OID="6" >
+   <Uses Class="LMDataItem" Path="92" Name="ContactTitle" />
+  </LMAttribute>
+  <LMAttribute OID="7" >
+   <Uses Class="LMDataItem" Path="93" Name="Address" />
+  </LMAttribute>
+  <LMAttribute OID="8" >
+   <Uses Class="LMDataItem" Path="94" Name="City" />
+  </LMAttribute>
+  <LMAttribute OID="9" >
+   <Uses Class="LMDataItem" Path="95" Name="Region" />
+  </LMAttribute>
+  <LMAttribute OID="10" >
+   <Uses Class="LMDataItem" Path="96" Name="PostalCode" />
+  </LMAttribute>
+  <LMAttribute OID="11" >
+   <Uses Class="LMDataItem" Path="97" Name="Country" />
+  </LMAttribute>
+  <LMAttribute OID="12" >
+   <Uses Class="LMDataItem" Path="98" Name="Phone" />
+  </LMAttribute>
+  <LMAttribute OID="13" >
+   <Uses Class="LMDataItem" Path="99" Name="Fax" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="18" Name="Customers_pk" >
+   <Uses Class="LMAttribute" Path="4,3" Name="CustomerID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="152" x="1283" TextField="2" Align="68" y="32" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="5" height="150" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="dtproperties" NextOID="10" FontFamily="MS Shell Dlg" >
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="100" Name="id" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="101" Name="objectid" />
+  </LMAttribute>
+  <LMAttribute OID="3" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="102" Name="property" />
+  </LMAttribute>
+  <LMAttribute OID="4" >
+   <Uses Class="LMDataItem" Path="103" Name="value" />
+  </LMAttribute>
+  <LMAttribute OID="5" >
+   <Uses Class="LMDataItem" Path="104" Name="uvalue" />
+  </LMAttribute>
+  <LMAttribute OID="6" >
+   <Uses Class="LMDataItem" Path="105" Name="lvalue" />
+  </LMAttribute>
+  <LMAttribute OID="7" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="106" Name="version" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="9" Name="dtproperties_pk" >
+   <Uses Class="LMAttribute" Path="5,1" Name="id" />
+   <Uses Class="LMAttribute" Path="5,3" Name="property" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="186" x="960" TextField="2" Align="68" y="20" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="6" height="326" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Employees" NextOID="28" FontFamily="MS Shell Dlg" >
+  <sink x="0.494624" y="0.496933" OID="1" />
+  <sink x="0.494624" y="0.496933" OID="2" />
+  <sink x="0.231183" y="0.226994" OID="27" />
+  <sink x="0.123656" y="0.484663" OID="26" />
+  <LMAttribute OID="5" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="107" Name="EmployeeID" />
+  </LMAttribute>
+  <LMAttribute OID="6" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="108" Name="LastName" />
+  </LMAttribute>
+  <LMAttribute OID="7" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="109" Name="FirstName" />
+  </LMAttribute>
+  <LMAttribute OID="8" >
+   <Uses Class="LMDataItem" Path="110" Name="Title" />
+  </LMAttribute>
+  <LMAttribute OID="9" >
+   <Uses Class="LMDataItem" Path="111" Name="TitleOfCourtesy" />
+  </LMAttribute>
+  <LMAttribute OID="10" >
+   <Uses Class="LMDataItem" Path="112" Name="BirthDate" />
+  </LMAttribute>
+  <LMAttribute OID="11" >
+   <Uses Class="LMDataItem" Path="113" Name="HireDate" />
+  </LMAttribute>
+  <LMAttribute OID="12" >
+   <Uses Class="LMDataItem" Path="114" Name="Address" />
+  </LMAttribute>
+  <LMAttribute OID="13" >
+   <Uses Class="LMDataItem" Path="115" Name="City" />
+  </LMAttribute>
+  <LMAttribute OID="14" >
+   <Uses Class="LMDataItem" Path="116" Name="Region" />
+  </LMAttribute>
+  <LMAttribute OID="15" >
+   <Uses Class="LMDataItem" Path="117" Name="PostalCode" />
+  </LMAttribute>
+  <LMAttribute OID="16" >
+   <Uses Class="LMDataItem" Path="118" Name="Country" />
+  </LMAttribute>
+  <LMAttribute OID="17" >
+   <Uses Class="LMDataItem" Path="119" Name="HomePhone" />
+  </LMAttribute>
+  <LMAttribute OID="18" >
+   <Uses Class="LMDataItem" Path="120" Name="Extension" />
+  </LMAttribute>
+  <LMAttribute OID="19" >
+   <Uses Class="LMDataItem" Path="121" Name="Photo" />
+  </LMAttribute>
+  <LMAttribute OID="20" >
+   <Uses Class="LMDataItem" Path="122" Name="Notes" />
+  </LMAttribute>
+  <LMAttribute OID="22" >
+   <Uses Class="LMDataItem" Path="123" Name="PhotoPath" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="25" Name="Employees_pk" >
+   <Uses Class="LMAttribute" Path="6,5" Name="EmployeeID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="165" x="1252" TextField="2" Align="68" y="261" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="7" height="70" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="EmployeeTerritories" NextOID="6" FontFamily="MS Shell Dlg" >
+  <sink x="0.49697" y="0.485714" OID="1" />
+  <sink x="0.49697" y="0.485714" OID="2" />
+  <LMIdentifier Primary="1" OID="5" Name="EmployeeTerritories_pk" />
+ </LMEntityNormal>
+ <LMEntityNormal width="131" x="280" TextField="2" Align="68" y="426" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="8" height="118" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Order Details" NextOID="13" FontFamily="MS Shell Dlg" >
+  <sink x="0.496183" y="0.491525" OID="1" />
+  <sink x="0.496183" y="0.491525" OID="2" />
+  <LMAttribute OID="5" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="124" Name="UnitPrice" />
+  </LMAttribute>
+  <LMAttribute OID="6" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="125" Name="Quantity" />
+  </LMAttribute>
+  <LMAttribute OID="7" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="126" Name="Discount" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="12" Name="Order Details_pk" />
+ </LMEntityNormal>
+ <LMEntityNormal width="183" x="569" TextField="2" Align="68" y="352" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="9" height="262" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Orders" NextOID="28" FontFamily="MS Shell Dlg" >
+  <sink x="0.497268" y="0.496183" OID="1" />
+  <sink x="0.497268" y="0.496183" OID="2" />
+  <sink x="0.497268" y="0.496183" OID="3" />
+  <sink x="0.497268" y="0.496183" OID="4" />
+  <LMAttribute OID="5" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="127" Name="OrderID" />
+  </LMAttribute>
+  <LMAttribute OID="8" >
+   <Uses Class="LMDataItem" Path="128" Name="OrderDate" />
+  </LMAttribute>
+  <LMAttribute OID="9" >
+   <Uses Class="LMDataItem" Path="129" Name="RequiredDate" />
+  </LMAttribute>
+  <LMAttribute OID="10" >
+   <Uses Class="LMDataItem" Path="130" Name="ShippedDate" />
+  </LMAttribute>
+  <LMAttribute OID="12" >
+   <Uses Class="LMDataItem" Path="131" Name="Freight" />
+  </LMAttribute>
+  <LMAttribute OID="13" >
+   <Uses Class="LMDataItem" Path="132" Name="ShipName" />
+  </LMAttribute>
+  <LMAttribute OID="14" >
+   <Uses Class="LMDataItem" Path="133" Name="ShipAddress" />
+  </LMAttribute>
+  <LMAttribute OID="15" >
+   <Uses Class="LMDataItem" Path="134" Name="ShipCity" />
+  </LMAttribute>
+  <LMAttribute OID="16" >
+   <Uses Class="LMDataItem" Path="135" Name="ShipRegion" />
+  </LMAttribute>
+  <LMAttribute OID="17" >
+   <Uses Class="LMDataItem" Path="136" Name="ShipPostalCode" />
+  </LMAttribute>
+  <LMAttribute OID="18" >
+   <Uses Class="LMDataItem" Path="137" Name="ShipCountry" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="27" Name="Orders_pk" >
+   <Uses Class="LMAttribute" Path="9,5" Name="OrderID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="182" x="75" TextField="2" Align="68" y="181" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="10" height="198" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Products" NextOID="20" FontFamily="MS Shell Dlg" >
+  <sink x="0.494505" y="0.494949" OID="1" />
+  <sink x="0.494505" y="0.494949" OID="2" />
+  <sink x="0.494505" y="0.494949" OID="3" />
+  <LMAttribute OID="4" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="138" Name="ProductID" />
+  </LMAttribute>
+  <LMAttribute OID="5" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="139" Name="ProductName" />
+  </LMAttribute>
+  <LMAttribute OID="8" >
+   <Uses Class="LMDataItem" Path="140" Name="QuantityPerUnit" />
+  </LMAttribute>
+  <LMAttribute OID="9" >
+   <Uses Class="LMDataItem" Path="141" Name="UnitPrice" />
+  </LMAttribute>
+  <LMAttribute OID="10" >
+   <Uses Class="LMDataItem" Path="142" Name="UnitsInStock" />
+  </LMAttribute>
+  <LMAttribute OID="11" >
+   <Uses Class="LMDataItem" Path="143" Name="UnitsOnOrder" />
+  </LMAttribute>
+  <LMAttribute OID="12" >
+   <Uses Class="LMDataItem" Path="144" Name="ReorderLevel" />
+  </LMAttribute>
+  <LMAttribute OID="13" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="145" Name="Discontinued" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="19" Name="Products_pk" >
+   <Uses Class="LMAttribute" Path="10,4" Name="ProductID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="173" x="1255" TextField="2" Align="68" y="552" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="11" height="70" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Region" NextOID="5" FontFamily="MS Shell Dlg" >
+  <sink x="0.49711" y="0.485714" OID="1" />
+  <LMAttribute OID="2" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="146" Name="RegionID" />
+  </LMAttribute>
+  <LMAttribute OID="3" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="147" Name="RegionDescription" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="4" Name="Region_pk" >
+   <Uses Class="LMAttribute" Path="11,2" Name="RegionID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="180" x="954" TextField="2" Align="68" y="366" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="12" height="86" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Shippers" NextOID="6" FontFamily="MS Shell Dlg" >
+  <sink x="0.494444" y="0.488372" OID="1" />
+  <LMAttribute OID="2" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="148" Name="ShipperID" />
+  </LMAttribute>
+  <LMAttribute OID="3" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="149" Name="CompanyName" />
+  </LMAttribute>
+  <LMAttribute OID="4" >
+   <Uses Class="LMDataItem" Path="150" Name="Phone" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="5" Name="Shippers_pk" >
+   <Uses Class="LMAttribute" Path="12,2" Name="ShipperID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="180" x="62" TextField="2" Align="68" y="635" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="13" height="230" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Suppliers" NextOID="17" FontFamily="MS Shell Dlg" >
+  <sink x="0.494444" y="0.495652" OID="1" />
+  <LMAttribute OID="2" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="151" Name="SupplierID" />
+  </LMAttribute>
+  <LMAttribute OID="3" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="152" Name="CompanyName" />
+  </LMAttribute>
+  <LMAttribute OID="4" >
+   <Uses Class="LMDataItem" Path="153" Name="ContactName" />
+  </LMAttribute>
+  <LMAttribute OID="5" >
+   <Uses Class="LMDataItem" Path="154" Name="ContactTitle" />
+  </LMAttribute>
+  <LMAttribute OID="6" >
+   <Uses Class="LMDataItem" Path="155" Name="Address" />
+  </LMAttribute>
+  <LMAttribute OID="7" >
+   <Uses Class="LMDataItem" Path="156" Name="City" />
+  </LMAttribute>
+  <LMAttribute OID="8" >
+   <Uses Class="LMDataItem" Path="157" Name="Region" />
+  </LMAttribute>
+  <LMAttribute OID="9" >
+   <Uses Class="LMDataItem" Path="158" Name="PostalCode" />
+  </LMAttribute>
+  <LMAttribute OID="10" >
+   <Uses Class="LMDataItem" Path="159" Name="Country" />
+  </LMAttribute>
+  <LMAttribute OID="11" >
+   <Uses Class="LMDataItem" Path="160" Name="Phone" />
+  </LMAttribute>
+  <LMAttribute OID="12" >
+   <Uses Class="LMDataItem" Path="161" Name="Fax" />
+  </LMAttribute>
+  <LMAttribute OID="13" >
+   <Uses Class="LMDataItem" Path="162" Name="HomePage" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="16" Name="Suppliers_pk" >
+   <Uses Class="LMAttribute" Path="13,2" Name="SupplierID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="199" x="1231" TextField="2" Align="68" y="399" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#9932cc" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="14" height="86" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Territories" NextOID="7" FontFamily="MS Shell Dlg" >
+  <sink x="0.497487" y="0.488372" OID="1" />
+  <sink x="0.497487" y="0.488372" OID="2" />
+  <LMAttribute OID="3" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="163" Name="TerritoryID" />
+  </LMAttribute>
+  <LMAttribute OID="4" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="164" Name="TerritoryDescription" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="6" Name="Territories_pk" >
+   <Uses Class="LMAttribute" Path="14,3" Name="TerritoryID" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="70" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_CustomerCustomerDemo" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="415" y="225" OID="1" SinkObjectOID="2" SinkOID="2" />
+  <point x="395" y="73" OID="2" SinkObjectOID="3" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="7" y="-69" OID="4" />
+  <EndRoleHandle x="19" y="43" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="71" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_CustomerCustomerDemo_Customers" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="415" y="225" OID="1" SinkObjectOID="2" SinkOID="1" />
+  <point x="677" y="126" OID="2" SinkObjectOID="4" SinkOID="2" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="78" y="-65" OID="4" />
+  <EndRoleHandle x="-111" y="2" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="72" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Employees_Employees" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="8" FontFamily="MS Shell Dlg" >
+  <point x="983" y="178" OID="1" SinkObjectOID="6" SinkOID="26" />
+  <point x="830" y="239" OID="2" />
+  <point x="804" y="118" OID="5" />
+  <point x="1003" y="94" OID="3" SinkObjectOID="6" SinkOID="27" />
+  <TextHandle x="0.17" y="0.465753" OID="4" />
+  <BeginRoleHandle x="-57" y="-13" OID="6" />
+  <EndRoleHandle x="-73" y="22" OID="7" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="73" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_EmployeeTerritories_Employees" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="1334" y="295" OID="1" SinkObjectOID="7" SinkOID="2" />
+  <point x="1052" y="182" OID="2" SinkObjectOID="6" SinkOID="2" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="74" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_EmployeeTerritories_Territories" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="1334" y="295" OID="1" SinkObjectOID="7" SinkOID="1" />
+  <point x="1330" y="441" OID="2" SinkObjectOID="14" SinkOID="2" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="0" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="75" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Code="FK_Order_Details_Orders" Name="FK_Order_Details_Orders" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" ><![CDATA[FK_Order_Details_Orders]]><point x="345" y="484" OID="1" SinkObjectOID="8" SinkOID="2" />
+  <point x="660" y="482" OID="2" SinkObjectOID="9" SinkOID="4" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="99" y="21" OID="4" />
+  <EndRoleHandle x="-147" y="26" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="16579838" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="76" BeginArrowDirection="16579838" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Order_Details_Products" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="345" y="484" OID="1" SinkObjectOID="8" SinkOID="1" />
+  <point x="165" y="279" OID="2" SinkObjectOID="10" SinkOID="3" />
+  <TextHandle x="0.353591" y="0.558252" OID="3" />
+  <BeginRoleHandle x="-86" y="-46" OID="4" />
+  <EndRoleHandle x="39" y="111" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="77" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Orders_Customers" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="660" y="482" OID="1" SinkObjectOID="9" SinkOID="3" />
+  <point x="677" y="126" OID="2" SinkObjectOID="4" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="32" y="-151" OID="4" />
+  <EndRoleHandle x="13" y="137" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="16579838" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="78" BeginArrowDirection="16579838" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Orders_Employees" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="660" y="482" OID="1" SinkObjectOID="9" SinkOID="2" />
+  <point x="1052" y="182" OID="2" SinkObjectOID="6" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="118" y="-121" OID="4" />
+  <EndRoleHandle x="-134" y="63" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="79" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Orders_Shippers" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="660" y="482" OID="1" SinkObjectOID="9" SinkOID="1" />
+  <point x="1043" y="408" OID="2" SinkObjectOID="12" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="133" y="-49" OID="4" />
+  <EndRoleHandle x="-125" y="4" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="80" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Products_Categories" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="165" y="279" OID="1" SinkObjectOID="10" SinkOID="2" />
+  <point x="151" y="72" OID="2" SinkObjectOID="1" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="-114" OID="4" />
+  <EndRoleHandle x="23" y="58" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="16579838" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="81" BeginArrowDirection="16579838" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Products_Suppliers" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="165" y="279" OID="1" SinkObjectOID="10" SinkOID="1" />
+  <point x="151" y="749" OID="2" SinkObjectOID="13" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="11" y="119" OID="4" />
+  <EndRoleHandle x="16" y="-159" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="3" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="0" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="8" OID="82" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="FK_Territories_Region" EndCardinality="0,1" BeginTruncate="1" BeginArrowFlags="5" NextOID="6" FontFamily="MS Shell Dlg" >
+  <point x="1330" y="441" OID="1" SinkObjectOID="14" SinkOID="1" />
+  <point x="1341" y="586" OID="2" SinkObjectOID="11" SinkOID="1" />
+  <TextHandle x="0.45" y="0.5" OID="3" />
+  <BeginRoleHandle x="10" y="10" OID="4" />
+  <EndRoleHandle x="10" y="10" OID="5" />
+ </LMRelationship>
+ <Validation>
+  <Rule Name="Model name missing" Value="Error" />
+  <Rule Name="Model comment missing" Value="Warning" />
+  <Rule Name="Model description missing" Value="Information" />
+  <Rule Name="Model author missing" Value="Warning" />
+  <Rule Name="Rule name missing" Value="Error" />
+  <Rule Name="Rule code missing" Value="Warning" />
+  <Rule Name="Rule comment missing" Value="Warning" />
+  <Rule Name="Rule description missing" Value="Information" />
+  <Rule Name="Rule name duplicate" Value="Error" />
+  <Rule Name="Rule code duplicate" Value="Error" />
+  <Rule Name="Rule not used" Value="Warning" />
+  <Rule Name="Domain name missing" Value="Error" />
+  <Rule Name="Domain code missing" Value="Warning" />
+  <Rule Name="Domain comment missing" Value="Warning" />
+  <Rule Name="Domain description missing" Value="Information" />
+  <Rule Name="Domain name duplicate" Value="Error" />
+  <Rule Name="Domain code duplicate" Value="Error" />
+  <Rule Name="Domain type missing" Value="Error" />
+  <Rule Name="Domain type unknown" Value="Error" />
+  <Rule Name="Domain not used" Value="Warning" />
+  <Rule Name="Data Item name missing" Value="Error" />
+  <Rule Name="Data Item code missing" Value="Warning" />
+  <Rule Name="Data Item comment missing" Value="Warning" />
+  <Rule Name="Data Item description missing" Value="Information" />
+  <Rule Name="Data Item name duplicate" Value="Error" />
+  <Rule Name="Data Item code duplicate" Value="Error" />
+  <Rule Name="Data Item type missing" Value="Error" />
+  <Rule Name="Data Item type unknown" Value="Error" />
+  <Rule Name="Data Item not used" Value="Warning" />
+  <Rule Name="Entity name missing" Value="Error" />
+  <Rule Name="Entity code missing" Value="Warning" />
+  <Rule Name="Entity comment missing" Value="Warning" />
+  <Rule Name="Entity description missing" Value="Information" />
+  <Rule Name="Entity name duplicate" Value="Error" />
+  <Rule Name="Entity code duplicate" Value="Error" />
+  <Rule Name="Entity attribute missing" Value="Error" />
+  <Rule Name="Entity primary identifier missing" Value="Warning" />
+  <Rule Name="Association name missing" Value="Error" />
+  <Rule Name="Association code missing" Value="Warning" />
+  <Rule Name="Association comment missing" Value="Warning" />
+  <Rule Name="Association description missing" Value="Information" />
+  <Rule Name="Association name duplicate" Value="Error" />
+  <Rule Name="Association code duplicate" Value="Error" />
+  <Rule Name="Association link missing" Value="Error" />
+  <Rule Name="Inheritance name missing" Value="Error" />
+  <Rule Name="Inheritance code missing" Value="Warning" />
+  <Rule Name="Inheritance comment missing" Value="Warning" />
+  <Rule Name="Inheritance description missing" Value="Information" />
+  <Rule Name="Inheritance name duplicate" Value="Warning" />
+  <Rule Name="Inheritance code duplicate" Value="Warning" />
+  <Rule Name="Inheritance link missing" Value="Error" />
+  <Rule Name="Relationship name missing" Value="Error" />
+  <Rule Name="Relationship code missing" Value="Warning" />
+  <Rule Name="Relationship comment missing" Value="Warning" />
+  <Rule Name="Relationship description missing" Value="Information" />
+  <Rule Name="Relationship name duplicate" Value="Warning" />
+  <Rule Name="Relationship code duplicate" Value="Warning" />
+  <Rule Name="Relationship child entity missing" Value="Error" />
+  <Rule Name="Relationship parent entity missing" Value="Error" />
+  <Rule Name="Association Link name missing" Value="Error" />
+  <Rule Name="Association Link code missing" Value="Warning" />
+  <Rule Name="Association Link comment missing" Value="Warning" />
+  <Rule Name="Association Link description missing" Value="Information" />
+  <Rule Name="Association Link name duplicate" Value="Warning" />
+  <Rule Name="Association Link code duplicate" Value="Warning" />
+  <Rule Name="Association Link entity missing" Value="Error" />
+  <Rule Name="Association Link association missing" Value="Error" />
+  <Rule Name="Inheritance Link name missing" Value="" />
+  <Rule Name="Inheritance Link code missing" Value="" />
+  <Rule Name="Inheritance Link comment missing" Value="" />
+  <Rule Name="Inheritance Link description missing" Value="" />
+  <Rule Name="Inheritance Link name duplicate" Value="" />
+  <Rule Name="Inheritance Link code duplicate" Value="" />
+  <Rule Name="Inheritance Link entity missing" Value="Error" />
+  <Rule Name="Inheritance Link inheritance missing" Value="Error" />
+  <Rule Name="Attribute name missing" Value="Error" />
+  <Rule Name="Attribute code missing" Value="Warning" />
+  <Rule Name="Attribute comment missing" Value="Warning" />
+  <Rule Name="Attribute description missing" Value="Information" />
+  <Rule Name="Attribute is indentifier but not mandatory" Value="Error" />
+  <Rule Name="Attribute name duplicate" Value="Error" />
+  <Rule Name="Attribute code duplicate" Value="Error" />
+  <Rule Name="Identifier name missing" Value="Error" />
+  <Rule Name="Identifier code missing" Value="Warning" />
+  <Rule Name="Identifier comment missing" Value="Warning" />
+  <Rule Name="Identifier description missing" Value="Information" />
+  <Rule Name="Identifier name duplicate" Value="Error" />
+  <Rule Name="Identifier code duplicate" Value="Error" />
+  <Rule Name="Identifier attribute missing" Value="Error" />
+ </Validation>
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="83" Name="CategoryID" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="84" Name="CategoryName" />
+ <LMDataItem Length="1073741823" DataType="LONG VARCHAR" OID="85" Name="Description" />
+ <LMDataItem Length="2147483647" DataType="LONG VARBINARY" OID="86" Name="Picture" />
+ <LMDataItem Length="10" DataType="CHAR" OID="87" Name="CustomerTypeID" />
+ <LMDataItem Length="1073741823" DataType="LONG VARCHAR" OID="88" Name="CustomerDesc" />
+ <LMDataItem Length="5" DataType="CHAR" OID="89" Name="CustomerID" />
+ <LMDataItem Length="40" DataType="VARCHAR" OID="90" Name="CompanyName" />
+ <LMDataItem Length="30" DataType="VARCHAR" OID="91" Name="ContactName" />
+ <LMDataItem Length="30" DataType="VARCHAR" OID="92" Name="ContactTitle" />
+ <LMDataItem Length="60" DataType="VARCHAR" OID="93" Name="Address" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="94" Name="City" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="95" Name="Region" />
+ <LMDataItem Length="10" DataType="VARCHAR" OID="96" Name="PostalCode" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="97" Name="Country" />
+ <LMDataItem Length="24" DataType="VARCHAR" OID="98" Name="Phone" />
+ <LMDataItem Length="24" DataType="VARCHAR" OID="99" Name="Fax" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="100" Name="id" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="101" Name="objectid" />
+ <LMDataItem Length="64" DataType="VARCHAR" OID="102" Name="property" />
+ <LMDataItem Length="255" DataType="VARCHAR" OID="103" Name="value" />
+ <LMDataItem Length="255" DataType="VARCHAR" OID="104" Name="uvalue" />
+ <LMDataItem Length="2147483647" DataType="LONG VARBINARY" OID="105" Name="lvalue" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="106" Name="version" Default="(0)" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="107" Name="EmployeeID" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="108" Name="LastName" />
+ <LMDataItem Length="10" DataType="VARCHAR" OID="109" Name="FirstName" />
+ <LMDataItem Length="30" DataType="VARCHAR" OID="110" Name="Title" />
+ <LMDataItem Length="25" DataType="VARCHAR" OID="111" Name="TitleOfCourtesy" />
+ <LMDataItem ServerCheckSize="4096" Precision1="23" Scale="3" DataType="TIMESTAMP" OID="112" Name="BirthDate" ServerCheck="789cd38876ca2c2ac970492c498d55b051484f2d4901323534351946c1281805a360148c8251300a46c1281805a360148c825130e801cb1f460601066642ca0091f70940" />
+ <LMDataItem Precision1="23" Scale="3" DataType="TIMESTAMP" OID="113" Name="HireDate" />
+ <LMDataItem Length="60" DataType="VARCHAR" OID="114" Name="Address" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="115" Name="City" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="116" Name="Region" />
+ <LMDataItem Length="10" DataType="VARCHAR" OID="117" Name="PostalCode" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="118" Name="Country" />
+ <LMDataItem Length="24" DataType="VARCHAR" OID="119" Name="HomePhone" />
+ <LMDataItem Length="4" DataType="VARCHAR" OID="120" Name="Extension" />
+ <LMDataItem Length="2147483647" DataType="LONG VARBINARY" OID="121" Name="Photo" />
+ <LMDataItem Length="1073741823" DataType="LONG VARCHAR" OID="122" Name="Notes" />
+ <LMDataItem Length="255" DataType="VARCHAR" OID="123" Name="PhotoPath" />
+ <LMDataItem ServerCheckSize="4096" Precision1="19" Scale="4" DataType="FLOAT" OID="124" Name="UnitPrice" Default="(0)" ServerCheck="789cd3880ecdcb2c0928ca4c4e8d55b0b35530d0641805a360148c8251300a46c1281805a360148c8251300a46c13003005baa0588" />
+ <LMDataItem ServerCheckSize="4096" Precision1="5" Scale="0" DataType="SMALLINT" OID="125" Name="Quantity" Default="(1)" ServerCheck="789cedc1a1154011000040a388b43f811d644f10959f08b6b7877777a9d53dfe35d7e9b1c42f07000000e0391752b00517" />
+ <LMDataItem ServerCheckSize="4096" Precision1="24" DataType="REAL" OID="126" Name="Discount" Default="(0)" ServerCheck="789cd38876c92c4ece2fcd2b8955b0b355305048cc4b514012b3b15530d4641805a360148c8251300a46c128180538018b3623830003f3403b63148c8251300a46c128c00700c28a0bdf" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="127" Name="OrderID" />
+ <LMDataItem Precision1="23" Scale="3" DataType="TIMESTAMP" OID="128" Name="OrderDate" />
+ <LMDataItem Precision1="23" Scale="3" DataType="TIMESTAMP" OID="129" Name="RequiredDate" />
+ <LMDataItem Precision1="23" Scale="3" DataType="TIMESTAMP" OID="130" Name="ShippedDate" />
+ <LMDataItem Precision1="19" Scale="4" DataType="FLOAT" OID="131" Name="Freight" Default="(0)" />
+ <LMDataItem Length="40" DataType="VARCHAR" OID="132" Name="ShipName" />
+ <LMDataItem Length="60" DataType="VARCHAR" OID="133" Name="ShipAddress" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="134" Name="ShipCity" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="135" Name="ShipRegion" />
+ <LMDataItem Length="10" DataType="VARCHAR" OID="136" Name="ShipPostalCode" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="137" Name="ShipCountry" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="138" Name="ProductID" />
+ <LMDataItem Length="40" DataType="VARCHAR" OID="139" Name="ProductName" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="140" Name="QuantityPerUnit" />
+ <LMDataItem ServerCheckSize="4096" Precision1="19" Scale="4" DataType="FLOAT" OID="141" Name="UnitPrice" Default="(0)" ServerCheck="789cd3880ecdcb2c0928ca4c4e8d55b0b35530d0641805a360148c8251300a46c1281805a360148c8251300a46010cb0bc60641060601e6867500a00217d0688" />
+ <LMDataItem ServerCheckSize="4096" Precision1="5" Scale="0" DataType="SMALLINT" OID="142" Name="UnitsInStock" Default="(0)" ServerCheck="789cd3880ecdcb2c29f6cc0b2ec94fce8e55b0b35530d0646060100062360608e000e206308b058859a1a2ac486c6201a9ea49d50f926723204f8e9df8cc24d52c7480cb6c3602f2ac38e45988b0971587f82818da805ae9143b60c4995ec84d47e8fab0b99f0908ffff6702aa856016248cc96706d22c6012c242a6d9809803a80a829919f880b400d057b240ac4ba60f46c1281805c3193052a0efff7f726d15225723550033036afb0ed4a660828a130b20ea41a52fa854e60497b54c0c22c07051006213325d56c318c5240b0c5a8b059d0c055c514c7c40311f203b853b8a091466094036c47666a02d4c38cd9104620920166340f81454fb083240c25e1768870e10cb42b1169406015520adc608a14158198a9540f2402c0fc50a0c083da360148c825130d800003f5217b2" />
+ <LMDataItem ServerCheckSize="4096" Precision1="5" Scale="0" DataType="SMALLINT" OID="143" Name="UnitsOnOrder" Default="(0)" ServerCheck="789cedd75b4f143114c0f1b633b32c08b85c44019145eec84d414414f0ae288a0aa82c227715d1d5200f3efaea9b895fc00fe4b3213e1a3f87f8eff48c2c04548c3e68f624bfb4b333dd763a939e4ed3e4787a69f5e5487a64656171652a39d09fec6c56d9f8fb611093ba27755fd87a20f5ad65742e90b699654cacafefdc6b10f2433e57fb2a077191cb58f2908f022450428b72d4a05e69d587e9dfbe679531cee87e3d6176681745d426f6fd1eecf8ed38cb51cdaf5d18647c6378b78b917d294a992aad54effb376aad2265caf86d98fa87ca9429a63e43dddd810947eaeff03f0751890a94232ebfe764d4a3a7578f828cb609b9c69ecb957254bb7386f29676a58f1b7aa39d91ba96f37616cfc87501cecbf912ed9cd5ee7ca11cdbd327a57e42ca2234a0c7ce09ecdc542929b7e92fea2b8e5ce4610ff251207ded4542febb58fa29c53eed9e7e45461fd9c84618fe471d2e42d9c84636c248b33e3ec3532ce30996f0188ff0108b58d06e8d9ec71ca63183593cc014ee6312294ce09eacbd77656d1fd72e078de10e6e4b1e1ac14dc943d7312cf9c6e602bb7e5fc3550ce18aacf581e4818b92832ee012ce493eb279ea3206d08f419c96fcd3a75d8eb2f9e994e4aca4dad819d90d8fdd1dd885a24772504ab93c63738acd391eba700cdde84407da7114ad68c111b4e1389ad08866d4a30e8751835a1c42b5e4caa476f93b2eb9cfe6bd34c785cae5b855e5727c9b7279b093b21ba5e8453fecbe630043388061e5aeeb40bbb46dc5117917ecfdb6c0eed99bd08806e5f61675a8c56199a3ad7b131b71e9c7ee4ff6cb1c96c9f54532bffb648c25763ea54f7b1ff659dbe7d0b4fdb64d6be369df045e8caa363a3c86eff94110dbb6c9ff1afa876132229a29e3b9b073c6814f9870e2bc2016cb89ffbccb7f2c128939a3ce48fdedeca6372a27a3fe55ad991789b8f74a7f56bd9f264c7a74f5f9fcf2c677ab7d2fa377cbced2ebb016ad124a6dfe76fad5d8edf5bb6d1f7dbbfdc9fe7ff69f2ebe0189b74924" />
+ <LMDataItem ServerCheckSize="4096" Precision1="5" Scale="0" DataType="SMALLINT" OID="144" Name="ReorderLevel" Default="(0)" ServerCheck="789cedd7494f144114c0f1aaeaee6140c06153019101640741454494c55d1437c085416473dc403084188f5ebd99f805fc409e0df168fc1ce2bfba5ecb4040c4e841332ff9a5aaa7bba6aaab3bf5aa9b2646d24bcb8fd2cbc3e957e985c9647f5fb2b35965e3ef87414cea9ed47d61eb81d43797d1b940da669631b1b6b67daf41c80ff95cedab1cc4452e63c9433e0a9040092dca51837aa5552fa67efb9e55c638a3fbf584d9a65d14519bd88f7bb0e3b7e32c4735bf1ec700e31bc3fb5d8cec6b51ca5469a57a3ebc55ab1529b38fdf86a97fac4c9962ead3d4dd1d9870a4fe36ff731095a84039e2f27b4e463d7a7af528c8689b906becb95c2947b53b67286f6b57fab8a1d7db19a96b396f677150ae0b705ece9768e7ac76e70be5d89e3e25f5935216a101dd764e60e7a64a49b9457f515f71e4220f7b908f02e96b2f12f2dfc5d24f29cab47bfa15197d64231b61f89f74b80865231bd9086391f5f10516308fe77886a77882c748e391766bf41c66318569cce02126f1001348611cf765edbd276bfb1ded72d018ee6244f2d04ddc923c741dc3926f6c2eb0ebf7355cc510aec85a1f481eb82839e8022ee19ce4239ba72ea31f7d18c019c93fbddae5289b9f4e4bce4aaaf59d91ddf0d8dd815d28ba2507a594cb3336a7d89ce3e1388ea10b9de8c0111c451b5ad08a769c40131ad18c7a1c462d6a508743a8965c99d42e7fc725f7d9bcb7c871a172396e45b91cdfae5c1eeca4ec42297ad007bbefe8c7100e6058b9eb3a7044dab6a155de057bbf2db07bf62634a241b9bdc561d4a156e668f3dec4465cfab1fb93fd3287fbe4fa2299df321963899d4fe9d3de877dd6f639346dbd6dd3da78da378117a3aa8d0e8fe17b7e10c4b66cf2bf86fe69988c8866ca782eec9c71e013269c382f88c572e23b77f98f4522316bd4a0d4dfcd6c78a37232eadfd4aa7999887baff517d5f379dc2c8eae2ccdcdaf7fb7daf7327ab7ec2cbd096bd12aa1d4c66fa75f8ddd5ebfdbf6d1b7db9fec7fa7ff74f11d798f4923" />
+ <LMDataItem Precision1="1" Scale="0" DataType="BIT" OID="145" Name="Discontinued" Default="(0)" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="146" Name="RegionID" />
+ <LMDataItem Length="50" DataType="CHAR" OID="147" Name="RegionDescription" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="148" Name="ShipperID" />
+ <LMDataItem Length="40" DataType="VARCHAR" OID="149" Name="CompanyName" />
+ <LMDataItem Length="24" DataType="VARCHAR" OID="150" Name="Phone" />
+ <LMDataItem Precision1="10" Scale="0" DataType="INTEGER" OID="151" Name="SupplierID" />
+ <LMDataItem Length="40" DataType="VARCHAR" OID="152" Name="CompanyName" />
+ <LMDataItem Length="30" DataType="VARCHAR" OID="153" Name="ContactName" />
+ <LMDataItem Length="30" DataType="VARCHAR" OID="154" Name="ContactTitle" />
+ <LMDataItem Length="60" DataType="VARCHAR" OID="155" Name="Address" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="156" Name="City" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="157" Name="Region" />
+ <LMDataItem Length="10" DataType="VARCHAR" OID="158" Name="PostalCode" />
+ <LMDataItem Length="15" DataType="VARCHAR" OID="159" Name="Country" />
+ <LMDataItem Length="24" DataType="VARCHAR" OID="160" Name="Phone" />
+ <LMDataItem Length="24" DataType="VARCHAR" OID="161" Name="Fax" />
+ <LMDataItem Length="1073741823" DataType="LONG VARCHAR" OID="162" Name="HomePage" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="163" Name="TerritoryID" />
+ <LMDataItem Length="50" DataType="CHAR" OID="164" Name="TerritoryDescription" />
+</LMModel>

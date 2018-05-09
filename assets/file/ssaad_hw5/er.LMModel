@@ -1,0 +1,288 @@
+<LMModel Align="68" DisplayFlags="0" LineColor="#000000" FillStyle="none" LineWidth="1" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" BackgroundColor="#ffffff" FontBold="0" BackgroundImagePlacement="0" FontItalic="0" ModificationDate="2018-05-10T00:17:59" TextFlag="2048" CreationDate="2018-05-09T23:44:25" BackgroundType="0" FontStrikeOut="0" Name="Reserve Hotel" BackgroundStyle="none" Version="2.2" NextOID="39" FontFamily="Adobe Devanagari" >
+ <LMEntityNormal width="137" x="29" TextField="2" Align="68" y="402" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="1" height="83" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="RoomDestription" NextOID="5" FontFamily="Adobe Devanagari" >
+  <sink x="0.452555" y="0.0361446" OID="4" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="2" Name="roomType" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="3" Name="roomPrice" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="3" Name="roomType" >
+   <Uses Class="LMAttribute" Path="1,1" Name="roomType" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="140" x="285" TextField="2" Align="68" y="199" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="4" height="108" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Hotel" NextOID="7" FontFamily="Adobe Devanagari" >
+  <sink x="0.935714" y="0.518519" OID="5" />
+  <sink x="0.0285714" y="0.425926" OID="6" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="5" Name="hotelId" />
+  </LMAttribute>
+  <LMAttribute OID="2" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="6" Name="hotelName" />
+  </LMAttribute>
+  <LMAttribute OID="3" >
+   <Uses Class="LMDataItem" Path="7" Name="stars" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="4" Name="hotelId" >
+   <Uses Class="LMAttribute" Path="4,1" Name="hotelId" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="107" x="44" TextField="2" Align="68" y="203" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="8" height="90" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Room" NextOID="7" FontFamily="Adobe Devanagari" >
+  <sink x="0.766355" y="0.933333" OID="4" />
+  <sink x="0.429907" y="0.977778" OID="5" />
+  <sink x="0.915888" y="0.465347" OID="6" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="9" Name="roomId" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="10" Name="roomState" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="3" Name="roomId" >
+   <Uses Class="LMAttribute" Path="8,1" Name="roomId" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="169" x="240" TextField="2" Align="68" y="360" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="11" height="134" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Reservation" NextOID="9" FontFamily="Adobe Devanagari" >
+  <sink x="0.0177515" y="0.0373134" OID="7" />
+  <sink x="0.491124" y="0.776119" OID="8" />
+  <sink x="0.976331" y="0.447761" OID="6" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="12" Name="reId" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="13" Name="reState" />
+  </LMAttribute>
+  <LMAttribute OID="3" >
+   <Uses Class="LMDataItem" Path="14" Name="checkInDate" />
+  </LMAttribute>
+  <LMAttribute OID="4" >
+   <Uses Class="LMDataItem" Path="15" Name="numOfNight" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="5" Name="reId" >
+   <Uses Class="LMAttribute" Path="11,1" Name="reId" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="127" x="562" TextField="2" Align="68" y="221" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="16" height="86" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Location" NextOID="5" FontFamily="Adobe Devanagari" >
+  <sink x="0.0314961" y="0.418605" OID="4" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="17" Name="code" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="18" Name="name" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="3" Name="code" >
+   <Uses Class="LMAttribute" Path="16,1" Name="code" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="80" x="494" TextField="2" Align="68" y="389" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="19" height="85" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Basket" NextOID="6" FontFamily="Adobe Devanagari" >
+  <sink x="0.1625" y="0.376471" OID="4" />
+  <sink x="0.9625" y="0.329412" OID="5" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="20" Name="baId" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="21" Name="totalPrice" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="3" Name="baId" >
+   <Uses Class="LMAttribute" Path="19,1" Name="baId" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="144" x="263" TextField="2" Align="68" y="615" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="22" height="123" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="CustomerInfo" NextOID="7" FontFamily="Adobe Devanagari" >
+  <sink x="0.4375" y="0.0325203" OID="6" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="23" Name="userName" />
+  </LMAttribute>
+  <LMAttribute OID="2" >
+   <Uses Class="LMDataItem" Path="24" Name="isSmoking" />
+  </LMAttribute>
+  <LMAttribute OID="3" >
+   <Uses Class="LMDataItem" Path="25" Name="specialReq" />
+  </LMAttribute>
+  <LMAttribute OID="4" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="26" Name="userEmail" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="5" Name="userName" >
+   <Uses Class="LMAttribute" Path="22,1" Name="userName" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMEntityNormal width="105" x="655" TextField="2" Align="68" y="366" LineColor="#000000" FillStyle="Solid" LineWidth="1" Generate="1" FontUnderline="0" FillColor="#aaffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="27" height="132" DefaultsLoaded="1" FontBold="0" FontItalic="0" TextFlag="2048" FontStrikeOut="0" Name="Traveler" NextOID="7" FontFamily="Adobe Devanagari" >
+  <sink x="0.161905" y="0.409091" OID="6" />
+  <LMAttribute OID="1" Identifier="1" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="28" Name="taId" />
+  </LMAttribute>
+  <LMAttribute OID="2" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="29" Name="taName" />
+  </LMAttribute>
+  <LMAttribute OID="3" >
+   <Uses Class="LMDataItem" Path="30" Name="taAge" />
+  </LMAttribute>
+  <LMAttribute OID="4" Mandatory="1" >
+   <Uses Class="LMDataItem" Path="31" Name="taEmail" />
+  </LMAttribute>
+  <LMIdentifier Primary="1" OID="5" Name="taId" >
+   <Uses Class="LMAttribute" Path="27,1" Name="taId" />
+  </LMIdentifier>
+ </LMEntityNormal>
+ <LMRelationship BeginCardinality="1,1" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="32" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="4" NextOID="6" FontFamily="Adobe Devanagari" >
+  <point x="571" y="417" OID="1" SinkObjectOID="19" SinkOID="5" />
+  <point x="672" y="420" OID="2" SinkObjectOID="27" SinkOID="6" />
+  <TextHandle x="0.440252" y="-0.746269" OID="3" />
+  <BeginRoleHandle x="21" y="0" OID="4" />
+  <EndRoleHandle x="-44" y="-1" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="33" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="7" NextOID="6" Dependent="0" FontFamily="Adobe Devanagari" >
+  <point x="405" y="420" OID="1" SinkObjectOID="11" SinkOID="6" />
+  <point x="507" y="421" OID="2" SinkObjectOID="19" SinkOID="4" />
+  <TextHandle x="0.440252" y="-0.746269" OID="3" />
+  <BeginRoleHandle x="21" y="0" OID="4" />
+  <EndRoleHandle x="-44" y="-1" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="1,1" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="34" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="6" NextOID="6" Dependent="0" FontFamily="Adobe Devanagari" >
+  <point x="326" y="619" OID="1" SinkObjectOID="22" SinkOID="6" />
+  <point x="323" y="464" OID="2" SinkObjectOID="11" SinkOID="8" />
+  <TextHandle x="-1.25" y="0.376404" OID="3" />
+  <BeginRoleHandle x="17" y="-46" OID="4" />
+  <EndRoleHandle x="13" y="50" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="35" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="7" NextOID="6" Dependent="0" FontFamily="Adobe Devanagari" >
+  <point x="142" y="244" OID="1" SinkObjectOID="8" SinkOID="6" />
+  <point x="289" y="245" OID="2" SinkObjectOID="4" SinkOID="6" />
+  <TextHandle x="0.512195" y="-1.5" OID="3" />
+  <BeginRoleHandle x="34" y="1" OID="4" />
+  <EndRoleHandle x="-44" y="-1" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="0,n" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="36" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="7" NextOID="6" Dependent="0" FontFamily="Adobe Devanagari" >
+  <point x="416" y="255" OID="1" SinkObjectOID="4" SinkOID="5" />
+  <point x="566" y="257" OID="2" SinkObjectOID="16" SinkOID="4" />
+  <TextHandle x="0.440252" y="-0.595238" OID="3" />
+  <BeginRoleHandle x="21" y="0" OID="4" />
+  <EndRoleHandle x="-44" y="-1" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="1,1" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="6" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="37" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="4" NextOID="6" Dependent="1" FontFamily="Adobe Devanagari" >
+  <point x="90" y="291" OID="1" SinkObjectOID="8" SinkOID="5" />
+  <point x="91" y="405" OID="2" SinkObjectOID="1" SinkOID="4" />
+  <TextHandle x="0.440252" y="-0.746269" OID="3" />
+  <BeginRoleHandle x="15" y="16" OID="4" />
+  <EndRoleHandle x="14" y="-28" OID="5" />
+ </LMRelationship>
+ <LMRelationship BeginCardinality="1,1" TextField="2" Align="68" LineColor="#000000" FillStyle="Solid" LineWidth="1" EndArrowDirection="1072693248" EndArrowFlags="4" Generate="1" EndArrowType="3" FontUnderline="0" FillColor="#ffffff" LineStyle="Solid" FontColor="#000000" FontPointSize="9" OID="38" BeginArrowDirection="0" DefaultsLoaded="1" BeginArrowType="3" FontBold="0" FontItalic="0" EndTruncate="1" TextFlag="2048" FontStrikeOut="0" Name="ta-ba" EndCardinality="1,1" BeginTruncate="1" BeginArrowFlags="6" NextOID="6" Dependent="0" FontFamily="Adobe Devanagari" >
+  <point x="126" y="287" OID="1" SinkObjectOID="8" SinkOID="4" />
+  <point x="243" y="365" OID="2" SinkObjectOID="11" SinkOID="7" />
+  <TextHandle x="0.440252" y="-0.746269" OID="3" />
+  <BeginRoleHandle x="15" y="16" OID="4" />
+  <EndRoleHandle x="-15" y="-29" OID="5" />
+ </LMRelationship>
+ <Validation>
+  <Rule Name="Model name missing" Value="Error" />
+  <Rule Name="Model comment missing" Value="Warning" />
+  <Rule Name="Model description missing" Value="Information" />
+  <Rule Name="Model author missing" Value="Warning" />
+  <Rule Name="Rule name missing" Value="Error" />
+  <Rule Name="Rule code missing" Value="Warning" />
+  <Rule Name="Rule comment missing" Value="Warning" />
+  <Rule Name="Rule description missing" Value="Information" />
+  <Rule Name="Rule name duplicate" Value="Error" />
+  <Rule Name="Rule code duplicate" Value="Error" />
+  <Rule Name="Rule not used" Value="Warning" />
+  <Rule Name="Domain name missing" Value="Error" />
+  <Rule Name="Domain code missing" Value="Warning" />
+  <Rule Name="Domain comment missing" Value="Warning" />
+  <Rule Name="Domain description missing" Value="Information" />
+  <Rule Name="Domain name duplicate" Value="Error" />
+  <Rule Name="Domain code duplicate" Value="Error" />
+  <Rule Name="Domain type missing" Value="Error" />
+  <Rule Name="Domain type unknown" Value="Error" />
+  <Rule Name="Domain not used" Value="Warning" />
+  <Rule Name="Data Item name missing" Value="Error" />
+  <Rule Name="Data Item code missing" Value="Warning" />
+  <Rule Name="Data Item comment missing" Value="Warning" />
+  <Rule Name="Data Item description missing" Value="Information" />
+  <Rule Name="Data Item name duplicate" Value="Error" />
+  <Rule Name="Data Item code duplicate" Value="Error" />
+  <Rule Name="Data Item type missing" Value="Error" />
+  <Rule Name="Data Item type unknown" Value="Error" />
+  <Rule Name="Data Item not used" Value="Warning" />
+  <Rule Name="Entity name missing" Value="Error" />
+  <Rule Name="Entity code missing" Value="Warning" />
+  <Rule Name="Entity comment missing" Value="Warning" />
+  <Rule Name="Entity description missing" Value="Information" />
+  <Rule Name="Entity name duplicate" Value="Error" />
+  <Rule Name="Entity code duplicate" Value="Error" />
+  <Rule Name="Entity attribute missing" Value="Error" />
+  <Rule Name="Entity primary identifier missing" Value="Warning" />
+  <Rule Name="Association name missing" Value="Error" />
+  <Rule Name="Association code missing" Value="Warning" />
+  <Rule Name="Association comment missing" Value="Warning" />
+  <Rule Name="Association description missing" Value="Information" />
+  <Rule Name="Association name duplicate" Value="Error" />
+  <Rule Name="Association code duplicate" Value="Error" />
+  <Rule Name="Association link missing" Value="Error" />
+  <Rule Name="Inheritance name missing" Value="Error" />
+  <Rule Name="Inheritance code missing" Value="Warning" />
+  <Rule Name="Inheritance comment missing" Value="Warning" />
+  <Rule Name="Inheritance description missing" Value="Information" />
+  <Rule Name="Inheritance name duplicate" Value="Warning" />
+  <Rule Name="Inheritance code duplicate" Value="Warning" />
+  <Rule Name="Inheritance link missing" Value="Error" />
+  <Rule Name="Relationship name missing" Value="Error" />
+  <Rule Name="Relationship code missing" Value="Warning" />
+  <Rule Name="Relationship comment missing" Value="Warning" />
+  <Rule Name="Relationship description missing" Value="Information" />
+  <Rule Name="Relationship name duplicate" Value="Warning" />
+  <Rule Name="Relationship code duplicate" Value="Warning" />
+  <Rule Name="Relationship child entity missing" Value="Error" />
+  <Rule Name="Relationship parent entity missing" Value="Error" />
+  <Rule Name="Association Link name missing" Value="Error" />
+  <Rule Name="Association Link code missing" Value="Warning" />
+  <Rule Name="Association Link comment missing" Value="Warning" />
+  <Rule Name="Association Link description missing" Value="Information" />
+  <Rule Name="Association Link name duplicate" Value="Warning" />
+  <Rule Name="Association Link code duplicate" Value="Warning" />
+  <Rule Name="Association Link entity missing" Value="Error" />
+  <Rule Name="Association Link association missing" Value="Error" />
+  <Rule Name="Inheritance Link name missing" Value="" />
+  <Rule Name="Inheritance Link code missing" Value="" />
+  <Rule Name="Inheritance Link comment missing" Value="" />
+  <Rule Name="Inheritance Link description missing" Value="" />
+  <Rule Name="Inheritance Link name duplicate" Value="" />
+  <Rule Name="Inheritance Link code duplicate" Value="" />
+  <Rule Name="Inheritance Link entity missing" Value="Error" />
+  <Rule Name="Inheritance Link inheritance missing" Value="Error" />
+  <Rule Name="Attribute name missing" Value="Error" />
+  <Rule Name="Attribute code missing" Value="Warning" />
+  <Rule Name="Attribute comment missing" Value="Warning" />
+  <Rule Name="Attribute description missing" Value="Information" />
+  <Rule Name="Attribute is indentifier but not mandatory" Value="Error" />
+  <Rule Name="Attribute name duplicate" Value="Error" />
+  <Rule Name="Attribute code duplicate" Value="Error" />
+  <Rule Name="Identifier name missing" Value="Error" />
+  <Rule Name="Identifier code missing" Value="Warning" />
+  <Rule Name="Identifier comment missing" Value="Warning" />
+  <Rule Name="Identifier description missing" Value="Information" />
+  <Rule Name="Identifier name duplicate" Value="Error" />
+  <Rule Name="Identifier code duplicate" Value="Error" />
+  <Rule Name="Identifier attribute missing" Value="Error" />
+ </Validation>
+ <LMDataItem DataType="INTEGER" OID="2" Name="roomType" />
+ <LMDataItem Precision1="6" DataType="FLOAT" OID="3" Name="roomPrice" />
+ <LMDataItem DataType="INTEGER" OID="5" Name="hotelId" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="6" Name="hotelName" />
+ <LMDataItem DataType="INTEGER" OID="7" Name="stars" />
+ <LMDataItem DataType="INTEGER" OID="9" Name="roomId" />
+ <LMDataItem DataType="SMALLINT" OID="10" Name="roomState" />
+ <LMDataItem DataType="INTEGER" OID="12" Name="reId" />
+ <LMDataItem DataType="INTEGER" OID="13" Name="reState" />
+ <LMDataItem DataType="DATE" OID="14" Name="checkInDate" />
+ <LMDataItem DataType="INTEGER" OID="15" Name="numOfNight" />
+ <LMDataItem Length="10" DataType="VARCHAR" OID="17" Name="code" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="18" Name="name" />
+ <LMDataItem DataType="INTEGER" OID="20" Name="baId" />
+ <LMDataItem Precision1="6" DataType="FLOAT" OID="21" Name="totalPrice" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="23" Name="userName" />
+ <LMDataItem DataType="BIT" OID="24" Name="isSmoking" />
+ <LMDataItem Length="256" DataType="VARCHAR" OID="25" Name="specialReq" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="26" Name="userEmail" />
+ <LMDataItem DataType="INTEGER" OID="28" Name="taId" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="29" Name="taName" />
+ <LMDataItem DataType="INTEGER" OID="30" Name="taAge" />
+ <LMDataItem Length="20" DataType="VARCHAR" OID="31" Name="taEmail" />
+</LMModel>

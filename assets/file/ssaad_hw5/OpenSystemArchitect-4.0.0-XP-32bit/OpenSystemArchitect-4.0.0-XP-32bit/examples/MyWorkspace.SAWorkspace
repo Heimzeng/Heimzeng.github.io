@@ -1,0 +1,3 @@
+<SAWorkspace Name="MyWorkspace" Version="2.2" >
+ <Child Class="SAProject" Location="Northwind.SAProject" />
+ <Child Class="LMModel" Location="Northwind.LMModel" /><![CDATA[MyWorkspace]]></SAWorkspace>
