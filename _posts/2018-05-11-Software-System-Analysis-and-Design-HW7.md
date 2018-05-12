@@ -189,6 +189,3 @@ title: "Software System Analysis and Design HW7"
 </center>
 
 [点击下载对应UMLet文件](https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/file/ssaad_hw7/task2inorder.uxf)
-
-## 建模者答案与评价
-
