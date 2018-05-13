@@ -12,7 +12,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/mainpage.png?raw=true" width="200px">
-
+	<br>
 	图1：美团外卖主页面
 </center>
 
@@ -22,7 +22,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/location.png?raw=true" width="200px">
-
+	<br>
 	图2：获取定位
 </center>
 
@@ -32,7 +32,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/nearby.png?raw=true" width="200px">
-
+	<br>
 	图3：附近商家
 </center>
 
@@ -40,22 +40,16 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/malatang.png?raw=true" width="200px">
-
+	<br>
 	图4：搜索麻辣烫
 </center>
 
 如上图所示，我们搜索麻辣烫，会弹出许多的商家，这些商家一般我们定的地点的附近的商家，我们可以按照我们的意愿将他们排序以及进行筛选
 
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/sort.png?raw=true" width="200px">
-
-	图5：调整搜索顺序
-</center>
-
-<center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/filter.png?raw=true" width="200px">
-
-	图6：筛选
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/sort.png?raw=true" width="200px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/filter.png?raw=true" width="200px">
+	<br>
+	图5：调整搜索顺序; 图6：筛选
 </center>
 
 正如图5和图6所示，我们可以通过排序和筛选轻易得找到我们想要的商家。
@@ -66,39 +60,33 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/targetStore.png?raw=true" width="200px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/storeDetail.png?raw=true" width="200px">
-
-	图7：商家主页面 	图8：商家详细信息
+	<br>
+	图7：商家主页面; 图8：商家详细信息
 </center>
 
 上拉回到餐品选择界面，然后点击每个商品对应的“+“号就可以将它们添加进我们的购物车里。如图9所示：
 
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/pocket.png?raw=true" width="200px">
-
-	图9：购物车
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/pocket.png?raw=true" width="200px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/pocket2.png?raw=true" width="200px">
+	<br>
+	图9：购物车; 图10：另一个购物车
 </center>
 
-这里的购物车跟购物网站上的购物车有所不同，购物网站一般是一个用户对应一个“购物车”，而在美团外卖中，则是每个用户对应每个商家有一个购物车。这就意味着你可以在不同的商家点不同的餐品而不用在更换商家时清空购物车。如下图所示：
-
-<center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/pocket2.png?raw=true" width="200px">
-
-	图10：另一个购物车
-</center>
+这里的购物车跟购物网站上的购物车有所不同，购物网站一般是一个用户对应一个“购物车”，而在美团外卖中，则是每个用户对应每个商家有一个购物车。这就意味着你可以在不同的商家点不同的餐品而不用在更换商家时清空购物车。如图10所示：
 
 选完餐品后我们点击去结算，便会跳到一个生成订单的界面，订单有两种类型，如图11和图12所示：
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/order1.jpg?raw=true" width="200px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/order2.jpg?raw=true" width="200px">
-
-	图11：配送订单 	图12：自取订单
+	<br>
+	图11：配送订单; 图12：自取订单
 </center>
 
 其中最重要的信息就是用户的地址信息了，假设我们是一个注册并且登录了的用户，我们在第一次订餐的时候肯定要添加一个地址作为配送地址，点击订单中的地址，我们可以进入我们的地址选择界面，里面包括了我们之前添加过的所有地址信息，如果您是一个新用户，地址选择界面便为空。我们可以添加一个地址，如下图所示：
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/addaddr.png?raw=true" width="200px">
-
+	<br>
 	图13：添加地址
 </center>
 
@@ -106,7 +94,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/topaddr.jpg?raw=true" width="200px">
-
+	<br>
 	图14：新地址
 </center>
 
@@ -116,7 +104,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/payorder.png?raw=true" width="200px">
-
+	<br>
 	图15：支付页面
 </center>
 
@@ -126,7 +114,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/ordering.png?raw=true" width="200px">
-
+	<br>
 	图16：制作配送过程中的订单
 </center>
 
@@ -134,7 +122,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/ordering.png?raw=true" width="200px">
-
+	<br>
 	图17：订单完成
 </center>
 
@@ -142,7 +130,7 @@ title: "Software System Analysis and Design HW7"
 
 <center>
 	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/eva.png?raw=true" width="200px">
-
+	<br>
 	图18：评价订单
 </center>
 
