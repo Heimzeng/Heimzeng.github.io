@@ -77,7 +77,7 @@ title: "Software System Analysis and Design HW7"
 选完餐品后我们点击去结算，便会跳到一个生成订单的界面，订单有两种类型，如图11和图12所示：
 
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/order1.jpg?raw=true" width="200px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/order2.jpg?raw=true" width="200px">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/order1.png?raw=true" width="200px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/order2.png?raw=true" width="200px">
 	<br>
 	图11：配送订单; 图12：自取订单
 </center>
@@ -93,7 +93,7 @@ title: "Software System Analysis and Design HW7"
 添加完成后这个地址便会出现在我们的地址选择界面的顶部：
 
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/topaddr.jpg?raw=true" width="200px">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/ssaad_hw7/topaddr.png?raw=true" width="200px">
 	<br>
 	图14：新地址
 </center>
