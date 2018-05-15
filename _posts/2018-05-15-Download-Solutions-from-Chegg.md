@@ -177,7 +177,7 @@ def getElementScreenshot(driver, url, elementIdentifier, idType, screenshotDir, 
 在我下载答案的后两天，chegg宣布整改：
 
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/cheggDownloader/cheggDown.png?raw=true"">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/cheggDownloader/cheggDown.png?raw=true">
 </center>
 
 成就达成：入侵美国最大答案网站Chegg使其停业整改！
