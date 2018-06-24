@@ -25,25 +25,25 @@ title: "小程序腾讯云wafer部署"
 3. 安装依赖
 在刚刚选择的小程序的server目录下安装依赖，如下
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529830930428.png">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529830930428.png?raw=true">
 </center>
 
 4. 点击微信开发平台界面的【腾讯云】图标，在下拉的菜单中选择【上传测试代码】
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529830757488.png">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529830757488.png?raw=true">
 </center>
 
 5. 上传完代码后，点击详情->腾讯云状态即可看到腾讯云自动分配的开发环境域名
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831238435.png">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831238435.png?raw=true">
 </center>
 
 6. 完整复制（包括 https://）开发环境 request 域名，然后在编辑器中打开 client/config.js 文件，将复制的域名填入 host 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo：
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831701295.png">
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831701295.png?raw=true">
 </center>
 
 7. 在模拟器中点击【登录】，看到显示“登录成功”，即为开通完成，可以开始其他开发。
 <center>
-	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831751696.png" width="250px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831812170.png" width="250px"> 
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831751696.png?raw=true" width="250px"> <img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/waferGettingStart/1529831812170.png?raw=true" width="250px"> 
 </center>
