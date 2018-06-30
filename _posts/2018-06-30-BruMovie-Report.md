@@ -19,5 +19,6 @@ title: "布鲁电影报告"
 # 个人认为最得意的工作清单（一句话）
 
 # 个人的技术类博客列表
-
-
+- [15331012-微信web开发者工具入门](https://heimzeng.github.io/2018/04/15/Wechat-web-developing-tool-learning.html)
+- [15331012-小程序腾讯云wafer部署](https://heimzeng.github.io/2018/06/24/Wafer-GettingStart.html)
+- [15331012-基于Wafer2的电影售票系统的后台开发](https://heimzeng.github.io/2018/06/30/Wafer2-Movie-Ticket-System.html)
