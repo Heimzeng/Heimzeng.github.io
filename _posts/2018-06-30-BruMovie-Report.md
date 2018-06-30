@@ -14,9 +14,20 @@ title: "布鲁电影报告"
 
 # PSP 2.1 统计表
 
+|工作内容|占比|备注|
+|---|---|---|
+|gitpage搭建|80%||
+|项目设计|50%||
+|后台开发|95%||
+|前端开发|0%||
+
 # 个人分支的GIT统计截图
+<center>
+	<img src="https://github.com/Heimzeng/Heimzeng.github.io/blob/master/assets/img/post/brumovieReport/github.png?raw=true">
+</center>
 
 # 个人认为最得意的工作清单（一句话）
+几乎一个人完成了后台开发
 
 # 个人的技术类博客列表
 - [15331012-微信web开发者工具入门](https://heimzeng.github.io/2018/04/15/Wechat-web-developing-tool-learning.html)
