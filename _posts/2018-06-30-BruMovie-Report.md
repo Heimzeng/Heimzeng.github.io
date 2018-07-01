@@ -38,13 +38,6 @@ title: "布鲁电影报告"
 |  ·Size Measurement |  1  |
 |  ·Postmortem & Process Improvement Plan |  3  |
 
-|工作内容|占比|备注|
-|---|---|---|
-|gitpage搭建|80%||
-|项目设计|50%||
-|后台开发|95%||
-|前端开发|0%||
-
 # 个人分支的GIT统计截图
 
 ## 后台开发项目统计图
