@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLHierarchy</id>
+    <coordinates>
+      <x>504</x>
+      <y>264</y>
+      <w>264</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>type=Package
+app
+	Boundary
+		UI
+	Controler
+		hotel
+		room
+		order
+		payment
+	Entity
+		hotel
+		room
+		order</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
