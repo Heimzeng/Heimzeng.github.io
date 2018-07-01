@@ -20,6 +20,24 @@ title: "布鲁电影报告"
 
 # PSP 2.1 统计表
 
+| Step | Time / Hours |
+|----------| ---- |
+|**Planing**|  3  |
+|  ·Estimate|  3  |
+|**Development**|  82  |
+|  ·Analysis|  2  |
+|  ·Design Doc|  5  |
+|  ·Design Review|  2  |
+|  ·Coding Standard |  2  |
+|  ·Design |  8  |
+|  ·Coding |  30  |
+|  ·Code Review|  8  |
+|  ·Test |  25  |
+|**Reporting**| 6 |
+|  ·Test Report |  2  |
+|  ·Size Measurement |  1  |
+|  ·Postmortem & Process Improvement Plan |  3  |
+
 |工作内容|占比|备注|
 |---|---|---|
 |gitpage搭建|80%||
